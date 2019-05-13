@@ -12,7 +12,7 @@ function Init() {
     "science",
     "technology"
   ];
-
+///new index
   Request(url, GetCurrency);
   for (let i = 0; i < categoryArr.length; i++) {
     NewsRequest(categoryArr[i], GetNews);
